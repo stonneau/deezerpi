@@ -25,7 +25,11 @@ rpi config:
 the app can't be started in full screen mode so need to disable title bars:
 sudo nano /etc/xdg/labwc/rc.xml
 
- in the window section add 
+ in the windowRules section add 
+ <windowRules>
+    <windowRule identifier="*" serverDecoration="no"/>
+  </windowRules>
+
  
 <windowRule identifier="*" serverDecoration="no"/>
 the * is a bit dirty since it applies to all windows.
