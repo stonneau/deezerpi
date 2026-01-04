@@ -31,6 +31,7 @@ sudo nano /etc/xdg/labwc/rc.xml
   <windowRule identifier="*" serverDecoration="no"/>
 </windowRules>
 
+```
 
  
 <windowRule identifier="*" serverDecoration="no"/>
