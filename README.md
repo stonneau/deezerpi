@@ -53,3 +53,13 @@ with deezer.sh the file in this repo.
 don't forget to chmod+x deezer.sh
 
 TODO: block internet access to other websites.
+
+
+case for the 7 inch to adapt ?
+
+https://www.printables.com/model/49601-7-touchscreen-case-for-raspberry-pi-3-bb-internal/comments
+
+5 inch case 
+
+https://www.printables.com/model/1392600-raspberry-pi-touch-display-2-5-case/files#preview.mLcFm
+https://3dgo.app/models/printables/1392600
