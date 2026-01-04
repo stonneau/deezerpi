@@ -14,6 +14,14 @@ https://flathub.org/en/apps/dev.aunetx.deezer (tested with version 7.1.20)
 source is https://github.com/aunetx/deezer-linux
 
 
+rpi config:
+ by default the touch interaction is emulating a mouse, we need to change it to a true touch screen interaction
+ from start menu, preferences, screen. long press on the screen. touchscreen, touchscreen.
+
+ In the same menu, change orientation to left for landscape orientation.
+
+ app config:
+
 the app can't be started in full screen mode so need to disable title bars:
 sudo nano /etc/xdg/labwc/rc.xml
 
@@ -36,3 +44,5 @@ This is implemented in deezer.sh
 with deezer.sh the file in this repo.
 
 don't forget to chmod+x deezer.sh
+
+TODO: block internet access to other websites.
