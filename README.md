@@ -26,9 +26,11 @@ the app can't be started in full screen mode so need to disable title bars:
 sudo nano /etc/xdg/labwc/rc.xml
 
  in the windowRules section add 
- <windowRules>
-    <windowRule identifier="*" serverDecoration="no"/>
-  </windowRules>
+```xml
+<windowRules>
+  <windowRule identifier="*" serverDecoration="no"/>
+</windowRules>
+
 
  
 <windowRule identifier="*" serverDecoration="no"/>
